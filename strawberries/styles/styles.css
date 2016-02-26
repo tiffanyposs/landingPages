@@ -1,0 +1,161 @@
+/*whole project resets*/
+body,html{
+	font-family: sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1{
+	font-size: 6em;
+}
+
+h3{
+	font-size: 3em;
+	font-weight: lighter;
+}
+
+.container{
+	width: 100%;
+}
+
+.center{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.row{
+	width: 100%;
+}
+.row > *{
+  display: inline-block;
+}
+
+/*BUTTONS*/
+.btn{
+	padding: 10px 20px;
+	font-weight: ligher;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.btn.grey{
+	color: white;
+	background-color: #DCDBD9;
+	border: 2px solid white;
+
+}
+
+/*!!!!!!!!!!MAIN ABOVE SCROLL !!!!!!!!!!!!!!*/
+/*main nav*/
+#main-nav{
+	width: 100%;
+	padding: 40px;
+	margin-bottom: 100px;
+}
+
+#main-nav > div:first-child{
+  color: white;
+  float: left;
+}
+
+#main-nav > div:nth-child(2){
+	float: right;
+}
+
+.bg-img{
+	width: 100%;
+    height: 900px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+	background: url('../images/stock/strawberry.jpg')no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.bg-color{
+	background-color: rgba(184, 3, 12, 0.5);
+	width: 100%;
+	height: 100%;
+}
+
+
+#main-content{
+	width: 50%;
+}
+
+#main-content h1{
+	color: white;
+}
+
+#main-content .line{
+	width: 200px;
+	border: 2px solid white;
+	border-radius: 20px;
+	margin: 20px auto;
+}
+
+#main-content p{
+	color: white;
+	margin-bottom: 30px;
+}
+
+/*main social media*/
+.main-social > span:nth-child(even){
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	padding: 0px 30px;
+	margin: 0px 30px;
+}
+
+
+/*arrows*/
+.arrows{
+	margin-top: 40px;
+}
+
+.arrows span{
+	display: block;
+	margin-top: -15px;
+}
+
+.arrows span:first-child{
+	color: black;
+}
+
+.arrows span:nth-child(2){
+	color: grey;
+}
+
+.arrows span:nth-child(3){
+	color: white;
+}
+
+
+
+/*!!!!!!!!!!!LATEST WORK!!!!!!!!!!!!*/
+.latest-work{
+	margin-top: -100px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.latest-work h3{
+	border-bottom: 2px solid black;
+	padding-bottom: 15px;
+	width: 275px;
+	text-align: center;
+	margin: 0 auto 50px auto;
+}
+
+.latest-work .img > div{
+  width: 20%;
+  margin: 0 25px;
+}
+
+.latest-work img{
+	width: 100%;
+}
