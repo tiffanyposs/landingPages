@@ -2,6 +2,7 @@
 
 
 * [Cippy](http://bennettfeely.com/clippy/) - make unique shapes with css
+* [CSS Tricks Shapes](https://css-tricks.com/examples/ShapesOfCSS/) - how to make differnt shapes
 
 
 
