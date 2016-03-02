@@ -18,8 +18,10 @@ $( document ).ready(function(){
   // scroll down arrows
   $('.arrows a').on('click', function(){
   	var location = $('.latest-work').offset().top - 20;
-  	// var height = $( window ).height();
   	$('html, body').animate({ scrollTop: location }, 1000);
-  })
+  });
+
+
+  
 
 });

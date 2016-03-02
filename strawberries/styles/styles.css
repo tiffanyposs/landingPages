@@ -29,7 +29,6 @@ h1{
 
 h3{
 	font-size: 3em;
-	/*font-weight: lighter;*/
 }
 
 .container{
@@ -46,6 +45,7 @@ h3{
 }
 .row > *{
   display: inline-block;
+  vertical-align: top;
 }
 
 /*BUTTONS*/
@@ -223,11 +223,37 @@ h3{
 }
 
 
+/*DESSERTS*/
+
+#desserts .text{
+	width: 50%;
+	height: 300px;
+	text-align: center;
+}
+
+#desserts .text > div{
+	padding: 0px 60px;
+	margin: 150px 0px;
+}
+
+#desserts .text h3{
+	margin-bottom: 25px;
+}
+
+#desserts .img{
+	width: 49%;
+}
+
+#desserts .img img{
+	width: 100%;
+}
+
+
 
 /*!!!!!!!DOTS!!!!!!!!!!*/
 .dots{
 	height: 600px;
-	margin-top: -125px;
+	/*margin-top: -125px;*/
 	background: url('../images/stock/dots.svg')no-repeat center center; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
