@@ -17,6 +17,10 @@ h3{
 	font-size: 3em;
 }
 
+h4{
+	font-size: 2.5em;
+}
+
 .row{
 	width: 100%;
 }
@@ -39,22 +43,31 @@ h3{
 
 .image > div{
 	display: inline-block;
-	margin-left: -4px;
+	/*margin-left: -4px;*/
 }
 
 .image > div:first-child{
 	width: 40%;
 	height: 100%;
-	border-right: 5px solid black;
+	position: relative;
 	float: left;
+}
+
+/*down line*/
+.image > div:first-child > .line{
+	position: absolute;
+	height: 100%;
+	border-right: 2px solid black;
+	right: 0;
+	/*z-index: 1000;*/
 }
 
 .image > div:nth-child(2){
 	width: 60%;
 	height: 100%;
+	position: relative;
+	float: left;
 }
-
-
 
 .text{
 	width: 20%;
@@ -66,7 +79,9 @@ h3{
 	float: left;
 }
 
+/*!!!!!!!!!!!*/
 /*!!!!!main above fold!!!!!!*/
+/*!!!!!!!!!!!*/
 header{
 	height: 80%;
 }
@@ -93,8 +108,9 @@ header .text > div{
 	height: 50%;
 }
 
-
+/*!!!!!!!!!!!*/
 /*second section*/
+/*!!!!!!!!!!!*/
 #second{
 	height: 80%;
 }
@@ -103,29 +119,106 @@ header .text > div{
 	/*background-color: red;*/
 }
 
-#second .text{
-	/*background-color: blue;*/
+#second .image > div:first-child > div{
+	width: 100%;
+	float: left;
 }
 
-/*third section*/
+#second .image > div:first-child > div:first-child{
+	height: 30%;
+	background-color: red;
+}
 
+#second .image > div:first-child > div:nth-child(2){
+	height: 70%;
+}
+
+#second .numbers > div{
+	border-bottom: 2px solid gold;
+}
+
+#second .numbers > div > *{
+	display: inline-block;
+}
+
+#second .info{
+	/*margin: 50% auto;*/
+}
+
+#second .text{
+	background: url(../images/2.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*!!!!!!!!!!!*/
+/*!!!!!!third section*/
+/*!!!!!!!!!!!*/
 #third{
 	height: 80%;
 }
 
-#third .image{
-	/*background-color: purple;*/
+#third .image > div > div{
+	width: 90%;
 }
 
-#third .text{
-	/*background-color: red;*/
+#third .image > div:first-child > div{
+	float: right;
+}
+
+#third .image > div > div:first-child{
+	height: 40%;
+/*	background-color: red;*/
+	border-bottom: 2px solid black;
+}
+
+#third .image > div > div:nth-child(2){
+	height: 60%;
+	/*background-color: blue;*/
 }
 
 
+#third .bars > div{
+	display: inline-block;
+	/*text-align: center;*/
+	/*width: 20%;*/
+}
 
+#third .bars > div .line{
+	height: 10px;
+	width: 0px;
+	border: 2px solid black;
+	margin: 0 auto 10px auto;
+}
+
+#third .bars .bar{
+	width: 40px;
+	height: 120px;
+	background-color: gold;
+	margin: 0 auto;
+}
+
+
+/*!!!!!!!!!!!*/
 /*fourth section*/
+/*!!!!!!!!!!!*/
 #fourth{
 	height: 80%;
+}
+
+#fourth .image{
+	background: url(../images/3.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#fourth .text{
+	background-color: cornsilk;
 }
 
 /*footer*/
